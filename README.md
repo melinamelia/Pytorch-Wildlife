@@ -1,4 +1,4 @@
-![opossum_det](https://github.com/melinamelia/Pytorch-Wildlife/assets/159795416/31e33d98-8344-42df-bace-24a28890ff40)![improv logo copy](https://github.com/melinamelia/Pytorch-Wildlife/assets/159795416/168c62c0-c827-4c7e-953b-3093b68c8a2b) &nbsp; &nbsp; &nbsp; ![image](https://github.com/melinamelia/Pytorch-Wildlife/assets/159795416/e3f007b9-53c5-433c-be00-5240e4438bd2)
+![improv logo copy](https://github.com/melinamelia/Pytorch-Wildlife/assets/159795416/168c62c0-c827-4c7e-953b-3093b68c8a2b) &nbsp; &nbsp; &nbsp; ![image](https://github.com/melinamelia/Pytorch-Wildlife/assets/159795416/e3f007b9-53c5-433c-be00-5240e4438bd2)
 
 # Pytorch-Wildlife
   A Collaborative Deep Learning Framework for Conservation
@@ -189,3 +189,5 @@ The extensive collaborative efforts of Megadetector have genuinely inspired us, 
 
 Here are a few of the organizations that have used MegaDetector. We're only listing organizations who have given us permission to refer to them here or have posted publicly about their use of MegaDetector.
 
+>[!IMPORTANT]
+>If you have any questions regarding MegaDetector, or would like to be added to this list, please [email us](zhongqimiao@microsoft.com)!
