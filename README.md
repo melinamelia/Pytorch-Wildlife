@@ -5,10 +5,9 @@
 ## 🐾 Introduction
 
 At the core of our mission is the desire to create a harmonious space where conservation scientists from all over the globe can unite. Where they're able to share, grow, use datasets and deep learning architectures for wildlife conservation.
->[!NOTE]
->We are expanding the CameraTraps repo to introduce **Pytorch-Wildlife**, a Collaborative Deep Learning Framework for Conservation.
+We've been inspired by the potential and capabilities of Megadetector, and we deeply value its contributions to the community.
+As we forge ahead with Pytorch-Wildlife, under which Megadetector now resides, please know that we remain committed to supporting, maintaining, and developing Megadetector, ensuring its continued relevance, expansion, and utility.
 
-We've been inspired by the potential and capabilities of Megadetector, and we deeply value its contributions to the community. **As we forge ahead with Pytorch-Wildlife, under which Megadetector now resides, please know that we remain committed to supporting, maintaining, and developing Megadetector, ensuring its continued relevance, expansion, and utility.**
 
 To use the newest version of MegaDetector with all the exisitng functionatlities, you can use our newly developed [user interface](https://github.com/microsoft/CameraTraps?tab=readme-ov-file#explore-pytorch-wildlife-and-megadetector-with-our-user-interface) or simply load the model with **Pytorch-Wildlife** and the weights will be automatically downloaded:
 ```
@@ -17,7 +16,8 @@ detection_model = pw_detection.MegaDetectorV5()
 ```
 For those interested in accessing the previous MegaDetector repository, which utilizes the same `MegaDetector v5` model weights and was primarily developed by Dan Morris during his time at Microsoft, please visit the [archive](https://github.com/microsoft/CameraTraps/blob/main/archive) directory, or you can visit this [forked repository](https://github.com/agentmorris/MegaDetector/tree/main) that Dan Morris is actively maintaining.
 
-If you have any questions regarding MegaDetector and Pytorch-Wildlife, please [email us](zhongqimiao@microsoft.com)!
+>[!TIP]
+>If you have any questions regarding MegaDetector and Pytorch-Wildlife, please [email us](zhongqimiao@microsoft.com)!
 
 ## 👋 Welcome to Version 1.0
 
@@ -61,31 +61,30 @@ If you want to directly try **Pytorch-Wildlife** with the AI models available, i
 
 ### 👷 Our work:
   In the provided graph, boxes outlined in red represent elements that will be added and remained fixed, while those in blue will be part of our development.
-<br>
+
 
 ### 🚀 Inaugural Model:
   We're kickstarting with YOLO as our first available model, complemented by pre-trained weights from `MegaDetector v5`. This is the same `MegaDetector v5` model from the previous repository.
-<br>
+
 
 ### 📚 Expandable Repository:
   As we move forward, our platform will welcome new models and pre-trained weights for camera traps and bioacoustic analysis. We're excited to host contributions from global researchers through a dedicated submission platform.
-<br>
+
 
 ### 📊 Datasets from LILA:
   Pytorch-Wildlife will also incorporate the vast datasets hosted on LILA, making it a treasure trove for conservation research.
-<br>
+
 
 ### 🧰 Versatile Utilities:
   Our set of utilities spans from visualization tools to task-specific utilities, many inherited from Megadetector.
-<br>
+
 
 ### 💻 User Interface Flexibility:
   While we provide a foundational user interface, our platform is designed to inspire. We encourage researchers to craft and share their unique interfaces, and we'll list both existing and new UIs from other collaborators for the community's benefit.
-<br>
+
 
 Let's shape the future of wildlife research, together! 🙌
 
-<br>
 
 ### 📈 Progress on core tasks
 
@@ -115,7 +114,7 @@ Let's shape the future of wildlife research, together! 🙌
 - [x] Basic user interface<br>
 - [ ] UI Dev tools<br>
 - [ ] List of available UIs<br>
-<br>
+
 
 ### 🗺️ Development roadmap
 
@@ -157,3 +156,16 @@ Let's shape the future of wildlife research, together! 🙌
 - [x] 2.1.2 Add a new animal detection dataset.<br>
 - [x] 2.2.3 Implement a New detection model.<br>
 - [x] 2.2.4 Implement a new classification model.
+
+#### February 0.5
+✔ Packaging
+
+- [x] 2.1.3 Add a new classification dataset.<br>
+- [x] 2.2.5 Implement a new segmentation model.<br>
+- [x] 2.2.6 Add full documentation.<br>
+
+## 🖼️ Examples
+
+### Image detection using `MegaDetector v5`
+![animal_det_1](https://github.com/melinamelia/Pytorch-Wildlife/assets/159795416/d9171431-df08-4df6-ab95-1cb831b286db)<br>
+*Credits to Universidad de los Andes, Colombia.*
