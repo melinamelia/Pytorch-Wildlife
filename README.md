@@ -43,3 +43,35 @@ If you want to directly try **Pytorch-Wildlife** with the AI models available, i
 
 <img width="611" alt="gradio_UI" src="https://github.com/melinamelia/Pytorch-Wildlife/assets/159795416/920265ec-9d72-4677-a32f-1ade1b518db8">
 
+## 👉 Core Features of Pytorch-Wildlife
+### What are the core components of Pytorch-Wildlife?
+
+#### Unified Framework:
+  Pytorch-Wildlife integrates four pivotal elements:
+
+* Machine Learning Models
+* Pre-trained Weights
+* Datasets
+* Utilities
+
+#### Our work:
+  In the provided graph, boxes outlined in red represent elements that will be added and remained fixed, while those in blue will be part of our development.
+
+#### Inaugural Model:
+  We're kickstarting with YOLO as our first available model, complemented by pre-trained weights from `MegaDetector v5`. This is the same `MegaDetector v5` model from the previous repository.
+
+#### Expandable Repository:
+  As we move forward, our platform will welcome new models and pre-trained weights for camera traps and bioacoustic analysis. We're excited to host contributions from global researchers through a dedicated submission platform.
+
+#### Datasets from LILA:
+  Pytorch-Wildlife will also incorporate the vast datasets hosted on LILA, making it a treasure trove for conservation research.
+
+#### Versatile Utilities:
+  Our set of utilities spans from visualization tools to task-specific utilities, many inherited from Megadetector.
+
+#### User Interface Flexibility:
+  While we provide a foundational user interface, our platform is designed to inspire. We encourage researchers to craft and share their unique interfaces, and we'll list both existing and new UIs from other collaborators for the community's benefit.
+
+Let's shape the future of wildlife research, together! 🙌
+
+### Progress on the core tasks
