@@ -50,7 +50,9 @@ If you want to directly try **Pytorch-Wildlife** with the AI models available, i
 
 ## 🛠️ Core Features
    What are the core components of Pytorch-Wildlife?
-   –{…![Diagram drawio](https://github.com/melinamelia/Pytorch-Wildlife/assets/159795416/b8e6d7e7-dd61-4c67-8c86-ae543999d0e4)
+![Pytorch-core-diagram](https://github.com/melinamelia/Pytorch-Wildlife/assets/159795416/3353f4e2-9fbb-46d5-b5e6-2ad1a17b4f33)
+
+
 
 
 
