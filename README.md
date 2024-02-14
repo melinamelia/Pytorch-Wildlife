@@ -1,5 +1,6 @@
+[Logo of the project]
 # Pytorch-Wildlife: A Collaborative Deep Learning Framework for Conservation
-## Announcement
+## 👋 Introduction
 
 At the core of our mission is the desire to create a harmonious space where conservation scientists from all over the globe can unite, share, and grow. We are expanding the CameraTraps repo to introduce **Pytorch-Wildlife**, a Collaborative Deep Learning Framework for Conservation, where researchers can come together to share and use datasets and deep learning architectures for wildlife conservation.
 
@@ -10,3 +11,6 @@ To use the newest version of MegaDetector with all the exisitng functionatlities
 from PytorchWildlife.models import detection as pw_detection
 detection_model = pw_detection.MegaDetectorV5()
 ```
+For those interested in accessing the previous MegaDetector repository, which utilizes the same MegaDetector v5 model weights and was primarily developed by Dan Morris during his time at Microsoft, please visit the [archive](https://github.com/microsoft/CameraTraps/blob/main/archive) directory, or you can visit this [forked repository](https://github.com/agentmorris/MegaDetector/tree/main) that Dan Morris is actively maintaining.
+
+If you have any questions regarding MegaDetector and Pytorch-Wildlife, please [email us](zhongqimiao@microsoft.com)!
