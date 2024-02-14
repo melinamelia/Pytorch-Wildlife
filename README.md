@@ -1,4 +1,4 @@
-![improv logo copy](https://github.com/melinamelia/Pytorch-Wildlife/assets/159795416/168c62c0-c827-4c7e-953b-3093b68c8a2b) &nbsp; &nbsp; &nbsp; ![image](https://github.com/melinamelia/Pytorch-Wildlife/assets/159795416/e3f007b9-53c5-433c-be00-5240e4438bd2)
+![opossum_det](https://github.com/melinamelia/Pytorch-Wildlife/assets/159795416/31e33d98-8344-42df-bace-24a28890ff40)![improv logo copy](https://github.com/melinamelia/Pytorch-Wildlife/assets/159795416/168c62c0-c827-4c7e-953b-3093b68c8a2b) &nbsp; &nbsp; &nbsp; ![image](https://github.com/melinamelia/Pytorch-Wildlife/assets/159795416/e3f007b9-53c5-433c-be00-5240e4438bd2)
 
 # Pytorch-Wildlife
   A Collaborative Deep Learning Framework for Conservation
@@ -169,3 +169,23 @@ Let's shape the future of wildlife research, together! 🙌
 ### Image detection using `MegaDetector v5`
 ![animal_det_1](https://github.com/melinamelia/Pytorch-Wildlife/assets/159795416/d9171431-df08-4df6-ab95-1cb831b286db)<br>
 *Credits to Universidad de los Andes, Colombia.*
+
+### Image classification with `MegaDetector v5` and `AI4GAmazonRainforest`
+![animal_clas_1](https://github.com/melinamelia/Pytorch-Wildlife/assets/159795416/34473144-87b9-4589-9d76-3c9e5e6bdd16)<br>
+*Credits to Universidad de los Andes, Colombia.*
+
+### Opossum ID with `MegaDetector v5` and `AI4GOpossum`
+![opossum_det](https://github.com/melinamelia/Pytorch-Wildlife/assets/159795416/dbe82610-437a-4d6e-8060-4cd90d54fb0a)<br>
+*Credits to the Agency for Regulation and Control of Biosecurity and Quarantine for Galápagos (ABG), Ecuador.*
+
+## 🤝 Contributing
+This project is open to your ideas and contributions. If you want to submit a pull request, we'll have some guidelines available soon.
+
+We have adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [us](zhongqimiao@microsoft.com) with any additional questions or comments.
+
+## 👥 Existing Collaborators
+
+The extensive collaborative efforts of Megadetector have genuinely inspired us, and we deeply value its significant contributions to the community. As we continue to advance with Pytorch-Wildlife, our commitment to delivering technical support to our existing partners on MegaDetector remains the same.
+
+Here are a few of the organizations that have used MegaDetector. We're only listing organizations who have given us permission to refer to them here or have posted publicly about their use of MegaDetector.
+
