@@ -45,7 +45,8 @@ classification_results = classification_model.single_image_classification(img)
 
 If you want to directly try **Pytorch-Wildlife** with the AI models available, including `MegaDetector v5`, you can use our **Gradio** interface. This interface allows users to directly load the `MegaDetector v5` model weights for animal detection. In addition, **Pytorch-Wildlife** also has two classification models in our initial version. One is trained from an Amazon Rainforest camera trap dataset and the other from a Galapagos opossum classification dataset (more details of these datasets will be published soon). To start, please follow the [installation instructions](https://github.com/microsoft/CameraTraps/blob/main/INSTALLATION.md) on how to run the Gradio interface! We also provide multiple [**Jupyter** notebooks](https://github.com/microsoft/CameraTraps/tree/main/demo) for demonstation.
 
-<img width="611" alt="gradio_UI" src="https://github.com/melinamelia/Pytorch-Wildlife/assets/159795416/920265ec-9d72-4677-a32f-1ade1b518db8">
+![image](https://github.com/melinamelia/Pytorch-Wildlife/assets/159795416/81419fb5-9a7e-41f4-9581-856838d5ea55)
+
 
 ## 🛠️ Core Features
 ### What are the core components of Pytorch-Wildlife?
