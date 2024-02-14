@@ -85,6 +85,8 @@ If you want to directly try **Pytorch-Wildlife** with the AI models available, i
 
 Let's shape the future of wildlife research, together! 🙌
 
+<br>
+
 ### 📈 Progress on core tasks
 
 #### ▪️ Tasks
@@ -113,11 +115,12 @@ Let's shape the future of wildlife research, together! 🙌
 - [x] Basic user interface<br>
 - [ ] UI Dev tools<br>
 - [ ] List of available UIs<br>
+<br>
 
 ### 🗺️ Development roadmap
 
 #### October 0.1
-✔️ Packaging
+✔ Packaging
 
 - [x] 1.1.1 Add the YOLOv5 detection model.<br>
 - [x] 1.1.1 Add the Megadetector pretrained weights.<br>
@@ -125,7 +128,7 @@ Let's shape the future of wildlife research, together! 🙌
 - [x] 1.3.1-1.3.2 Add an animal species classification model and pretrained weights.
 
 #### November 0.2
-✔️ Packaging
+✔ Packaging
 
 - [x] 1.4.2-1.4.3 Add a documented animal video detection pipeline.<br>
 - [x] 1.5.1 Add a user-friendly interface for animal detection.<br>
@@ -133,7 +136,7 @@ Let's shape the future of wildlife research, together! 🙌
 - [x] 1.3.3 Add a Jupyter notebook for the video detection tutorial.
 
 #### December 0.3
-✔️ Packaging
+✔ Packaging
 
 - [x] 1.5.2 Add the video detection pipeline to the user interface.<br>
 - [x] 1.5.3 Add animal classification to the user interface.<br>
@@ -142,4 +145,15 @@ Let's shape the future of wildlife research, together! 🙌
 - [x] 1.2.1 Add a dataset module to download LILA subsets.<br>
 - [x] 1.2.1 Add visualization functions for LILA subsets.
 
-- [ ] 
+#### January 0.4
+✔ Packaging
+
+- [x] 1.4.1 Add a utilities module for data pre-processing and post-processing.<br>
+- [x] 2.2.2 Add Snapshot Serengeti classification weights.<br>
+- [x] 2.1.3 Add a new animal classification dataset.<br>
+
+✔ Improvements
+
+- [x] 2.1.2 Add a new animal detection dataset.<br>
+- [x] 2.2.3 Implement a New detection model.<br>
+- [x] 2.2.4 Implement a new classification model.
