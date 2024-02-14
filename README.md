@@ -1,4 +1,6 @@
-[Logo of the project]
+![improv logo copy](https://github.com/melinamelia/Pytorch-Wildlife/assets/159795416/168c62c0-c827-4c7e-953b-3093b68c8a2b) <img width="293" alt="image" src="https://github.com/melinamelia/Pytorch-Wildlife/assets/159795416/6b4bfb87-c4c9-4473-bc29-5509a616157a">
+
+
 # Pytorch-Wildlife
   A Collaborative Deep Learning Framework for Conservation
 ## 🐾 Introduction
