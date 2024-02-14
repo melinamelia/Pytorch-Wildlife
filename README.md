@@ -1,5 +1,6 @@
 [Logo of the project]
-# Pytorch-Wildlife: A Collaborative Deep Learning Framework for Conservation
+# Pytorch-Wildlife
+  A Collaborative Deep Learning Framework for Conservation
 ## 🐾 Introduction
 
 At the core of our mission is the desire to create a harmonious space where conservation scientists from all over the globe can unite, share, and grow. We are expanding the CameraTraps repo to introduce **Pytorch-Wildlife**, a Collaborative Deep Learning Framework for Conservation, where researchers can come together to share and use datasets and deep learning architectures for wildlife conservation.
@@ -36,3 +37,6 @@ detection_result = detection_model.single_image_detection(img)
 classification_model = pw_classification.AI4GAmazonRainforest() # Model weights are automatically downloaded.
 classification_results = classification_model.single_image_classification(img)
 ```
+## 🕵️ Explore Pytorch-Wildlife and MegaDetector with Our User Interface
+
+If you want to directly try **Pytorch-Wildlife** with the AI models available, including `MegaDetector v5`, you can use our **Gradio** interface. This interface allows users to directly load the `MegaDetector v5` model weights for animal detection. In addition, **Pytorch-Wildlife** also has two classification models in our initial version. One is trained from an Amazon Rainforest camera trap dataset and the other from a Galapagos opossum classification dataset (more details of these datasets will be published soon). To start, please follow the [installation instructions](https://github.com/microsoft/CameraTraps/blob/main/INSTALLATION.md) on how to run the Gradio interface! We also provide multiple [**Jupyter** notebooks](https://github.com/microsoft/CameraTraps/tree/main/demo) for demonstation.
