@@ -21,7 +21,7 @@ If you have any questions regarding MegaDetector and Pytorch-Wildlife, please [e
 
 The **Pytorch-Wildlife** library allows users to directly load the `MegaDetector v5` model weights for animal detection. We've fully refactored our codebase, prioritizing ease of use in model deployment and expansion. In addition to `MegaDetector v5`, **Pytorch-Wildlife** also accommodates a range of classification weights, such as those derived from the Amazon Rainforest dataset and the Opossum classification dataset. Explore the codebase and functionalities of **Pytorch-Wildlife** through our interactive `Gradio` web app and detailed Jupyter notebooks, designed to showcase the practical applications of our enhancements at [PyTorchWildlife](https://github.com/microsoft/CameraTraps/blob/main/INSTALLATION.md). You can find more information in our [documentation](https://cameratraps.readthedocs.io/en/latest/).
 
-Here is a brief example on how to perform detection and classification on a single image using `PyTorch-wildlife`:
+👇 Here is a brief example on how to perform detection and classification on a single image using `PyTorch-wildlife`
 ```
 import torch
 from PytorchWildlife.models import detection as pw_detection
@@ -40,3 +40,6 @@ classification_results = classification_model.single_image_classification(img)
 ## 🕵️ Explore Pytorch-Wildlife and MegaDetector with Our User Interface
 
 If you want to directly try **Pytorch-Wildlife** with the AI models available, including `MegaDetector v5`, you can use our **Gradio** interface. This interface allows users to directly load the `MegaDetector v5` model weights for animal detection. In addition, **Pytorch-Wildlife** also has two classification models in our initial version. One is trained from an Amazon Rainforest camera trap dataset and the other from a Galapagos opossum classification dataset (more details of these datasets will be published soon). To start, please follow the [installation instructions](https://github.com/microsoft/CameraTraps/blob/main/INSTALLATION.md) on how to run the Gradio interface! We also provide multiple [**Jupyter** notebooks](https://github.com/microsoft/CameraTraps/tree/main/demo) for demonstation.
+
+<img width="611" alt="gradio_UI" src="https://github.com/melinamelia/Pytorch-Wildlife/assets/159795416/920265ec-9d72-4677-a32f-1ade1b518db8">
+
