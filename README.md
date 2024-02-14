@@ -21,3 +21,18 @@ If you have any questions regarding MegaDetector and Pytorch-Wildlife, please [e
 The **Pytorch-Wildlife** library allows users to directly load the `MegaDetector v5` model weights for animal detection. We've fully refactored our codebase, prioritizing ease of use in model deployment and expansion. In addition to `MegaDetector v5`, **Pytorch-Wildlife** also accommodates a range of classification weights, such as those derived from the Amazon Rainforest dataset and the Opossum classification dataset. Explore the codebase and functionalities of **Pytorch-Wildlife** through our interactive `Gradio` web app and detailed Jupyter notebooks, designed to showcase the practical applications of our enhancements at [PyTorchWildlife](https://github.com/microsoft/CameraTraps/blob/main/INSTALLATION.md). You can find more information in our [documentation](https://cameratraps.readthedocs.io/en/latest/).
 
 Here is a brief example on how to perform detection and classification on a single image using `PyTorch-wildlife`:
+```
+import torch
+from PytorchWildlife.models import detection as pw_detection
+from PytorchWildlife.models import classification as pw_classification
+
+img = torch.randn((3, 1280, 1280))
+
+# Detection
+detection_model = pw_detection.MegaDetectorV5() # Model weights are automatically downloaded.
+detection_result = detection_model.single_image_detection(img)
+
+#Classification
+classification_model = pw_classification.AI4GAmazonRainforest() # Model weights are automatically downloaded.
+classification_results = classification_model.single_image_classification(img)
+```
