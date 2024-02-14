@@ -17,7 +17,7 @@ detection_model = pw_detection.MegaDetectorV5()
 For those interested in accessing the previous MegaDetector repository, which utilizes the same `MegaDetector v5` model weights and was primarily developed by Dan Morris during his time at Microsoft, please visit the [archive](https://github.com/microsoft/CameraTraps/blob/main/archive) directory, or you can visit this [forked repository](https://github.com/agentmorris/MegaDetector/tree/main) that Dan Morris is actively maintaining.
 
 If you have any questions regarding MegaDetector and Pytorch-Wildlife, please [email us](zhongqimiao@microsoft.com)!
-## 👋 Welcome to Pytorch-Wildlife Version 1.0
+## 👋 Welcome to Version 1.0
 
 **PyTorch-Wildlife** is a platform to create, modify, and share powerful AI conservation models. These models can be used for a variety of applications, including camera trap images, overhead images, underwater images, or bioacoustics. Your engagement with our work is greatly appreciated, and we eagerly await any feedback you may have.
 
@@ -39,22 +39,26 @@ detection_result = detection_model.single_image_detection(img)
 classification_model = pw_classification.AI4GAmazonRainforest() # Model weights are automatically downloaded.
 classification_results = classification_model.single_image_classification(img)
 ```
-## 🕵️ Explore Pytorch-Wildlife and MegaDetector with Our User Interface
+## 🕵️ Explore Pytorch-Wildlife and MegaDetector with our User Interface
 
 If you want to directly try **Pytorch-Wildlife** with the AI models available, including `MegaDetector v5`, you can use our **Gradio** interface. This interface allows users to directly load the `MegaDetector v5` model weights for animal detection. In addition, **Pytorch-Wildlife** also has two classification models in our initial version. One is trained from an Amazon Rainforest camera trap dataset and the other from a Galapagos opossum classification dataset (more details of these datasets will be published soon). To start, please follow the [installation instructions](https://github.com/microsoft/CameraTraps/blob/main/INSTALLATION.md) on how to run the Gradio interface! We also provide multiple [**Jupyter** notebooks](https://github.com/microsoft/CameraTraps/tree/main/demo) for demonstation.
 
 <img width="611" alt="gradio_UI" src="https://github.com/melinamelia/Pytorch-Wildlife/assets/159795416/920265ec-9d72-4677-a32f-1ade1b518db8">
 
-## 👉 Core Features of Pytorch-Wildlife
+## 🛠️ Core Features
 ### What are the core components of Pytorch-Wildlife?
 
-#### Unified Framework:
-  Pytorch-Wildlife integrates four pivotal elements:
+#### 🤝 Unified Framework:
+  Pytorch-Wildlife integrates **four pivotal elements:**
+  
 
-* Machine Learning Models
-* Pre-trained Weights
-* Datasets
-* Utilities
+👉 Machine Learning Models
+
+👉 Pre-trained Weights 
+
+👉 Datasets
+
+👉 Utilities
 
 #### Our work:
   In the provided graph, boxes outlined in red represent elements that will be added and remained fixed, while those in blue will be part of our development.
