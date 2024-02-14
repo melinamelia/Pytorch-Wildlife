@@ -60,24 +60,64 @@ If you want to directly try **Pytorch-Wildlife** with the AI models available, i
 
 👉 Utilities
 
-#### Our work:
+#### 👷 Our work:
   In the provided graph, boxes outlined in red represent elements that will be added and remained fixed, while those in blue will be part of our development.
 
-#### Inaugural Model:
+#### 🚀 Inaugural Model:
   We're kickstarting with YOLO as our first available model, complemented by pre-trained weights from `MegaDetector v5`. This is the same `MegaDetector v5` model from the previous repository.
 
-#### Expandable Repository:
+#### 📚 Expandable Repository:
   As we move forward, our platform will welcome new models and pre-trained weights for camera traps and bioacoustic analysis. We're excited to host contributions from global researchers through a dedicated submission platform.
 
-#### Datasets from LILA:
+#### 📊 Datasets from LILA:
   Pytorch-Wildlife will also incorporate the vast datasets hosted on LILA, making it a treasure trove for conservation research.
 
-#### Versatile Utilities:
+#### 🧰 Versatile Utilities:
   Our set of utilities spans from visualization tools to task-specific utilities, many inherited from Megadetector.
 
-#### User Interface Flexibility:
+#### 💻 User Interface Flexibility:
   While we provide a foundational user interface, our platform is designed to inspire. We encourage researchers to craft and share their unique interfaces, and we'll list both existing and new UIs from other collaborators for the community's benefit.
 
 Let's shape the future of wildlife research, together! 🙌
 
-### Progress on the core tasks
+### 📈 Progress on core tasks
+
+#### Animal detection
+
+
+✔️ Mega detector
+
+🔨 User submitted weights
+
+#### Animal classification
+
+
+✔️ Amazon Rainforest Datasets
+
+✔️ Amazon Opossum calssification
+
+🔨 User submitted weights
+
+#### Utility toolkit
+
+
+✔️ Visualization tools
+
+🔨 Megadetector utils
+
+🔨 User submitted utils
+
+#### Animal Datasets
+
+
+🔨 LILA datasets
+
+#### Accesibilty
+
+
+✔️ Basic user interface
+
+🔨 UI Dev tools
+
+🔨 List of available UIs
+
