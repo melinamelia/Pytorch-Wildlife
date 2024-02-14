@@ -89,28 +89,57 @@ Let's shape the future of wildlife research, together! 🙌
 
 #### ▪️ Tasks
 
-✔ Animal detection<br>
-✔ Mega detector<br>
-✔ User submitted weights<br>
-✔ Animal classification<br>
-✔ Amazon Rainforest Datasets<br>
-✔ Amazon Opossum calssification<br>
-✔ User submitted weights<br>
+- [ ]  Animal detection<br>
+- [x] Mega detector<br>
+- [x] User submitted weights<br>
+- [ ] Animal classification<br>
+- [x] Amazon Rainforest Datasets<br>
+- [x] Amazon Opossum calssification<br>
+- [ ] User submitted weights<br>
 
 #### ▪️ Utility Toolkit
 
-✔ Visualization tools<br>
-✔ Megadetector utils<br>
-✔ User submitted utils<br>
+- [x] Visualization tools<br>
+- [ ] Megadetector utils<br>
+- [ ] User submitted utils<br>
 
 #### ▪️ Datasets
 
-✔ Animal Datasets<br>
-✔ LILA datasets<br>
+- [ ] Animal Datasets<br>
+- [x] LILA datasets<br>
 
 #### ▪️ Accesibilty
 
-✔ Basic user interface<br>
-✔ UI Dev tools<br>
-✔ List of available UIs<br>
+- [x] Basic user interface<br>
+- [ ] UI Dev tools<br>
+- [ ] List of available UIs<br>
 
+### 🗺️ Development roadmap
+
+#### October 0.1
+✔️ Packaging
+
+- [x] 1.1.1 Add the YOLOv5 detection model.<br>
+- [x] 1.1.1 Add the Megadetector pretrained weights.<br>
+- [x] 1.1.3 Add a Notebook to create, load and run inference on the YOLOv5 detection model using Megadetector pretrained weights.<br>
+- [x] 1.3.1-1.3.2 Add an animal species classification model and pretrained weights.
+
+#### November 0.2
+✔️ Packaging
+
+- [x] 1.4.2-1.4.3 Add a documented animal video detection pipeline.<br>
+- [x] 1.5.1 Add a user-friendly interface for animal detection.<br>
+- [x] 1.2.2 Add a module for custom datasets.<br>
+- [x] 1.3.3 Add a Jupyter notebook for the video detection tutorial.
+
+#### December 0.3
+✔️ Packaging
+
+- [x] 1.5.2 Add the video detection pipeline to the user interface.<br>
+- [x] 1.5.3 Add animal classification to the user interface.<br>
+- [x] 1.5.4 Complete documentation on how to use the user-interface.<br>
+- [x] 1.1.2 Add a module for fine-tuning and training from scratch.<br>
+- [x] 1.2.1 Add a dataset module to download LILA subsets.<br>
+- [x] 1.2.1 Add visualization functions for LILA subsets.
+
+- [ ] 
