@@ -82,42 +82,30 @@ Let's shape the future of wildlife research, together! 🙌
 
 ### 📈 Progress on core tasks
 
-#### Animal detection
+#### 📋 Tasks
 
+* Animal detection
+* Mega detector
+* User submitted weights
+* Animal classification
+* Amazon Rainforest Datasets
+* Amazon Opossum calssification
+* User submitted weights
 
-✔️ Mega detector
+#### 🧰 Utility toolkit
 
-🔨 User submitted weights
+* Visualization tools
+* Megadetector utils
+* User submitted utils
 
-#### Animal classification
+#### 📊 Datasets
 
+* Animal Datasets
+* LILA datasets
 
-✔️ Amazon Rainforest Datasets
+#### 🚪 Accesibilty
 
-✔️ Amazon Opossum calssification
-
-🔨 User submitted weights
-
-#### Utility toolkit
-
-
-✔️ Visualization tools
-
-🔨 Megadetector utils
-
-🔨 User submitted utils
-
-#### Animal Datasets
-
-
-🔨 LILA datasets
-
-#### Accesibilty
-
-
-✔️ Basic user interface
-
-🔨 UI Dev tools
-
-🔨 List of available UIs
+* Basic user interface
+* UI Dev tools
+* List of available UIs
 
